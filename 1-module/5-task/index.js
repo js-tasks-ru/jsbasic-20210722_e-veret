@@ -1,3 +1,3 @@
 function truncate(str, maxlength) {
-  // ваш код...
+  return str.length > maxlength ? str.substr(0, 19) + "\u2026" : str;
 }
