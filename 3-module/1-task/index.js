@@ -1,3 +1,6 @@
 function namify(users) {
-  // ваш код...
+  if (!Array.isArray(users)) {
+    return;
+  }
+  return users.map((obj) => obj.name);
 }
